@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.wrapper {
+    width: 45%;
+    height: 110vh;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px ;
+    
+    
+    }
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #ffde7c;
+    height: 165px;
+}
+
+
+
+
+header .name p {
+    padding-left: 20px;
+    background-color: black;
+    width: 250px;
+    color:#ffde7c;
+    margin-left: 20px;
+}
+
+h2, p{
+    font-family: 'Trebuchet MS';
+}
+
+.profile-pic{
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+    border-radius: 70px;
+    background-color: red;
+    box-shadow: none;
+    margin-bottom: 0px;
+
+}
+
+.my-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+}
+
+.name{
+    width: 370px;
+    height:140px;
+    box-shadow: n;
+    padding-top: 20px;
+
+    
+}
+
+header h2 {
+    padding: 10px;
+    padding-left: 18px;
+}
+
+
+
+main{
+    display: flex;
+}
+
+.cv-details{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 558px;
+    display: flex;
+}
+
+.class1{
+    background-color: #595959;
+    width: 190px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .cv-details .class1 h6{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f3f3;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+main .cv-details h6{
+    padding-bottom: 10px;
+    padding-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f3f3;
+}
+
+h5{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.class2{
+    background-color: #404040;
+    width: 190px;
+    height: 150px;
+    display: flex;
+}
+
+.my-skill{
+    background-color: #404040;
+    width: 190px;
+    height: 90px;
+
+}
+
+.my-expertise{
+    background-color: #404040;
+    width: 190px;
+    height: 90px;
+    margin-top: 41px;
+}
+
+
+.class3{
+    background-color: #1f1d1d;
+    width: 190px;
+    height: 150px;
+}
+
+
+.class4{
+    background-color: rgb(22, 21, 21);
+    width: 190px;
+    height: 110px;
+}
+
+main .cv-content h4{
+    font-family: 'Trebuchet MS';
+    padding-left: 18px;
+    padding-top: 10px;
+    
+}
+
+main .cv-content h6{
+    margin: 20px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+.cv-content{
+    width: 100%;
+    height: 150px;
+}
+
+hr{
+    width: 350px;
+    margin-left: 30px;
+}
+
+
+.class6 hr {
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 55px;
+
+}
+
+.class7 hr {
+        width: 350px;
+        margin-left: 30px;
+        margin-top: 70px;
+    
+}
+
+.class5{
+    height: 150px;
+}
+
+.class6{
+    height: 150px;
+}
+
+.class7{
+    height: 150px;
+}
+
+.class8{
+
+    height: 108px;
+}
+
+
+
